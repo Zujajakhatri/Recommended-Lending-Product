@@ -1,0 +1,235 @@
+Year,Bank,Bank_Type,Advances_PKR_Bn,Total_Assets_PKR_Bn,Total_Deposits_PKR_Bn,Consumer_Finance_PKR_Bn,CF_YoY_Growth_%,CF_Share_of_Advances_%,Market_Share_%,Advances_to_Deposits_%
+2020,ABHI Microfinance Bank Limited,Microfinance Bank,21.55,34.75,24.49,2.54,,11.79,0.46,88.0
+2021,ABHI Microfinance Bank Limited,Microfinance Bank,19.7,37.05,25.42,3.18,25.2,16.14,0.47,77.5
+2022,ABHI Microfinance Bank Limited,Microfinance Bank,17.22,34.75,24.49,3.2,0.63,18.58,0.44,70.31
+2023,ABHI Microfinance Bank Limited,Microfinance Bank,18.76,46.0,54.9,2.5,-21.88,13.33,0.35,34.17
+2024,ABHI Microfinance Bank Limited,Microfinance Bank,20.0,40.35,36.23,6.22,148.8,31.1,0.78,55.2
+2025,ABHI Microfinance Bank Limited,Microfinance Bank,37.56,77.07,69.09,13.62,118.97,36.26,1.42,54.36
+2020,APNA Microfinance Bank Limited,Microfinance Bank,11.87,29.59,26.18,0.82,,6.88,0.15,45.34
+2021,APNA Microfinance Bank Limited,Microfinance Bank,11.83,23.66,22.08,0.9,10.82,7.65,0.13,53.58
+2022,APNA Microfinance Bank Limited,Microfinance Bank,7.99,19.59,22.61,0.53,-41.11,6.67,0.07,35.34
+2023,APNA Microfinance Bank Limited,Microfinance Bank,11.78,17.02,22.45,0.49,-8.93,4.12,0.07,52.47
+2024,APNA Microfinance Bank Limited,Microfinance Bank,13.4,17.45,25.67,0.44,-9.72,3.27,0.06,52.2
+2025,APNA Microfinance Bank Limited,Microfinance Bank,15.8,20.73,30.06,0.83,90.03,5.27,0.09,52.56
+2020,Al Baraka Bank (Pakistan) Limited,Full Islamic,99.7,193.0,159.4,3.8,,3.81,0.7,62.55
+2021,Al Baraka Bank (Pakistan) Limited,Full Islamic,105.62,218.0,178.9,4.95,30.26,4.69,0.73,59.04
+2022,Al Baraka Bank (Pakistan) Limited,Full Islamic,96.19,233.7,185.0,4.1,-17.17,4.26,0.57,51.99
+2023,Al Baraka Bank (Pakistan) Limited,Full Islamic,90.3,255.37,207.34,3.35,-18.29,3.71,0.47,43.55
+2024,Al Baraka Bank (Pakistan) Limited,Full Islamic,115.0,273.3,223.4,3.68,9.85,3.2,0.46,51.48
+2025,Al Baraka Bank (Pakistan) Limited,Full Islamic,148.2,311.92,259.64,4.2,14.13,2.83,0.44,57.08
+2020,Allied Bank Limited (ABL),Conventional + Islamic Banking,510.2,1590.0,1217.0,4.99,,0.98,0.91,41.92
+2021,Allied Bank Limited (ABL),Conventional + Islamic Banking,665.7,2010.0,1413.0,6.4,28.26,0.96,0.95,47.11
+2022,Allied Bank Limited (ABL),Conventional + Islamic Banking,857.5,2251.0,1522.0,4.45,-30.47,0.52,0.62,56.34
+2023,Allied Bank Limited (ABL),Conventional + Islamic Banking,794.1,2329.0,1677.0,3.6,-19.1,0.45,0.5,47.35
+2024,Allied Bank Limited (ABL),Conventional + Islamic Banking,1066.6,2817.0,2018.0,3.95,9.72,0.37,0.5,52.85
+2025,Allied Bank Limited (ABL),Conventional + Islamic Banking,802.0,3370.0,2346.0,4.32,9.37,0.54,0.45,34.19
+2020,Askari Bank Limited,Conventional + Islamic Banking,421.8,992.5,791.2,25.21,,5.98,4.61,53.31
+2021,Askari Bank Limited,Conventional + Islamic Banking,507.9,1259.14,1015.43,28.6,13.45,5.63,4.24,50.02
+2022,Askari Bank Limited,Conventional + Islamic Banking,615.0,1525.68,1130.88,31.4,9.79,5.11,4.35,54.38
+2023,Askari Bank Limited,Conventional + Islamic Banking,661.3,2124.0,1293.15,29.15,-7.17,4.41,4.05,51.14
+2024,Askari Bank Limited,Conventional + Islamic Banking,733.1,2501.38,1363.74,33.9,16.3,4.62,4.26,53.76
+2025,Askari Bank Limited,Conventional + Islamic Banking,574.9,2895.0,1631.33,39.5,16.52,6.87,4.12,35.24
+2020,Bank AL Habib Limited,Conventional + Islamic Banking,522.9,1521.1,1099.7,9.15,,1.75,1.67,47.55
+2021,Bank AL Habib Limited,Conventional + Islamic Banking,739.1,1850.0,1310.0,13.2,44.26,1.79,1.96,56.42
+2022,Bank AL Habib Limited,Conventional + Islamic Banking,831.3,2272.7,1568.1,14.65,10.98,1.76,2.03,53.01
+2023,Bank AL Habib Limited,Conventional + Islamic Banking,869.46,2742.2,1933.73,13.04,-10.99,1.5,1.81,44.96
+2024,Bank AL Habib Limited,Conventional + Islamic Banking,910.85,3320.04,2278.96,14.2,8.9,1.56,1.79,39.97
+2025,Bank AL Habib Limited,Conventional + Islamic Banking,792.05,3303.76,2599.09,15.84,11.55,2.0,1.65,30.47
+2020,Bank Alfalah Limited,Conventional + Islamic Banking,600.9,1384.87,881.77,58.2,,9.69,10.65,68.15
+2021,Bank Alfalah Limited,Conventional + Islamic Banking,699.1,1736.77,1139.0,74.1,27.32,10.6,10.97,61.38
+2022,Bank Alfalah Limited,Conventional + Islamic Banking,765.7,2253.2,1486.85,83.5,12.69,10.91,11.58,51.5
+2023,Bank Alfalah Limited,Conventional + Islamic Banking,777.3,3345.92,2085.0,88.6,6.11,11.4,12.3,37.28
+2024,Bank Alfalah Limited,Conventional + Islamic Banking,1156.3,3710.21,2136.91,107.0,20.77,9.25,13.45,54.11
+2025,Bank Alfalah Limited,Conventional + Islamic Banking,1150.0,3829.93,2496.21,131.3,22.71,11.42,13.69,46.07
+2020,Bank Makramah Limited,Full Islamic,58.92,107.66,101.89,0.85,,1.44,0.16,57.83
+2021,Bank Makramah Limited,Full Islamic,59.81,112.02,109.48,0.98,15.29,1.64,0.15,54.63
+2022,Bank Makramah Limited,Full Islamic,54.84,142.96,119.74,0.65,-33.67,1.19,0.09,45.8
+2023,Bank Makramah Limited,Full Islamic,52.95,290.87,153.42,0.42,-35.38,0.79,0.06,34.51
+2024,Bank Makramah Limited,Full Islamic,48.42,298.22,186.01,0.58,38.1,1.2,0.07,26.03
+2025,Bank Makramah Limited,Full Islamic,40.1,237.1,172.34,0.9,55.17,2.24,0.09,23.27
+2020,Bank of China Pakistan,Foreign Commercial,0.83,24.38,7.12,0.0,,0.0,0.0,11.66
+2021,Bank of China Pakistan,Foreign Commercial,4.0,49.67,16.25,0.0,,0.0,0.0,24.62
+2022,Bank of China Pakistan,Foreign Commercial,5.0,29.82,19.7,0.0,,0.0,0.0,25.38
+2023,Bank of China Pakistan,Foreign Commercial,0.0,97.53,41.15,0.0,,,0.0,0.0
+2024,Bank of China Pakistan,Foreign Commercial,0.0,78.87,1.37,0.0,,,0.0,0.0
+2025,Bank of China Pakistan,Foreign Commercial,0.0,73.33,4.42,0.0,,,0.0,0.0
+2020,Bank of Khyber (BOK),Conventional + Islamic Banking,129.06,288.3,203.07,2.6,,2.01,0.48,63.55
+2021,Bank of Khyber (BOK),Conventional + Islamic Banking,131.17,358.61,221.88,3.85,48.08,2.94,0.57,59.12
+2022,Bank of Khyber (BOK),Conventional + Islamic Banking,134.91,344.98,245.33,3.1,-19.48,2.3,0.43,54.99
+2023,Bank of Khyber (BOK),Conventional + Islamic Banking,109.7,383.19,284.69,2.45,-20.97,2.23,0.34,38.53
+2024,Bank of Khyber (BOK),Conventional + Islamic Banking,161.6,477.56,277.64,2.9,18.37,1.79,0.36,58.2
+2025,Bank of Khyber (BOK),Conventional + Islamic Banking,159.6,453.3,378.1,3.4,17.24,2.13,0.35,42.21
+2020,Bank of Punjab (BOP),Conventional + Islamic Banking,442.76,1095.45,691.02,11.4,,2.57,2.09,64.07
+2021,Bank of Punjab (BOP),Conventional + Islamic Banking,534.16,1196.95,1002.96,15.8,38.6,2.96,2.34,53.26
+2022,Bank of Punjab (BOP),Conventional + Islamic Banking,634.38,1481.89,1227.34,12.1,-23.42,1.91,1.68,51.69
+2023,Bank of Punjab (BOP),Conventional + Islamic Banking,849.5,2216.18,1520.85,9.4,-22.31,1.11,1.31,55.86
+2024,Bank of Punjab (BOP),Conventional + Islamic Banking,712.8,2379.98,1710.29,10.85,15.43,1.52,1.36,41.68
+2025,Bank of Punjab (BOP),Conventional + Islamic Banking,825.3,2951.68,2051.54,13.1,20.74,1.59,1.37,40.23
+2020,BankIslami Pakistan Limited,Full Islamic,145.34,336.4,283.64,14.2,,9.77,2.6,51.24
+2021,BankIslami Pakistan Limited,Full Islamic,179.31,408.39,344.79,21.5,51.41,11.99,3.18,52.01
+2022,BankIslami Pakistan Limited,Full Islamic,220.34,487.24,415.91,18.9,-12.09,8.58,2.62,52.98
+2023,BankIslami Pakistan Limited,Full Islamic,248.36,654.87,522.54,14.4,-23.81,5.8,2.0,47.53
+2024,BankIslami Pakistan Limited,Full Islamic,327.19,737.8,559.18,16.8,16.67,5.13,2.11,58.51
+2025,BankIslami Pakistan Limited,Full Islamic,322.2,771.34,660.18,19.1,13.69,5.93,1.99,48.8
+2020,Citibank N.A. Pakistan,Foreign Commercial,38.82,161.98,118.24,0.44,,1.13,0.08,32.83
+2021,Citibank N.A. Pakistan,Foreign Commercial,38.53,211.17,172.54,0.38,-13.64,0.99,0.06,22.33
+2022,Citibank N.A. Pakistan,Foreign Commercial,41.77,264.48,229.62,0.27,-28.95,0.65,0.04,18.19
+2023,Citibank N.A. Pakistan,Foreign Commercial,59.96,308.94,266.8,0.14,-48.15,0.23,0.02,22.47
+2024,Citibank N.A. Pakistan,Foreign Commercial,44.0,337.11,241.45,0.42,200.0,0.95,0.05,18.22
+2025,Citibank N.A. Pakistan,Foreign Commercial,42.3,329.29,210.0,0.42,0.0,0.99,0.04,20.14
+2020,Deutsche Bank AG Pakistan,Foreign Commercial,2.61,44.32,30.97,0.12,,4.6,0.02,8.43
+2021,Deutsche Bank AG Pakistan,Foreign Commercial,4.44,39.87,25.88,0.15,25.0,3.38,0.02,17.16
+2022,Deutsche Bank AG Pakistan,Foreign Commercial,5.51,63.53,46.02,0.11,-26.67,2.0,0.02,11.97
+2023,Deutsche Bank AG Pakistan,Foreign Commercial,8.08,60.83,36.43,0.08,-27.27,0.99,0.01,22.18
+2024,Deutsche Bank AG Pakistan,Foreign Commercial,3.09,69.2,44.94,0.14,75.0,4.53,0.02,6.88
+2025,Deutsche Bank AG Pakistan,Foreign Commercial,8.11,61.98,34.32,0.15,7.14,1.85,0.02,23.63
+2020,Dubai Islamic Bank Pakistan Limited,Full Islamic,204.41,303.26,237.55,31.1,,15.21,5.69,86.05
+2021,Dubai Islamic Bank Pakistan Limited,Full Islamic,232.0,351.47,261.57,44.5,43.09,19.18,6.59,88.7
+2022,Dubai Islamic Bank Pakistan Limited,Full Islamic,259.28,393.4,287.6,36.8,-17.3,14.19,5.1,90.15
+2023,Dubai Islamic Bank Pakistan Limited,Full Islamic,261.77,430.99,324.88,29.4,-20.11,11.23,4.08,80.57
+2024,Dubai Islamic Bank Pakistan Limited,Full Islamic,224.0,452.89,346.87,32.85,11.73,14.67,4.13,64.58
+2025,Dubai Islamic Bank Pakistan Limited,Full Islamic,237.3,447.11,334.68,38.6,17.5,16.27,4.03,70.9
+2020,Easypaisa Bank Limited,Digital Bank,12.73,52.39,41.37,3.85,,30.24,0.7,30.77
+2021,Easypaisa Bank Limited,Digital Bank,11.8,54.54,39.79,5.4,40.26,45.76,0.8,29.66
+2022,Easypaisa Bank Limited,Digital Bank,13.0,63.7,46.6,7.15,32.41,55.0,0.99,27.9
+2023,Easypaisa Bank Limited,Digital Bank,12.92,66.64,53.64,9.3,30.07,71.98,1.29,24.09
+2024,Easypaisa Bank Limited,Digital Bank,28.52,108.4,72.4,14.8,59.14,51.89,1.86,39.39
+2025,Easypaisa Bank Limited,Digital Bank,26.14,184.8,127.7,18.02,21.76,68.94,1.88,20.47
+2020,Faysal Bank Limited,Full Islamic,310.0,710.06,585.59,45.5,,14.68,8.33,52.94
+2021,Faysal Bank Limited,Full Islamic,416.8,869.97,644.1,61.8,35.82,14.83,9.15,64.71
+2022,Faysal Bank Limited,Full Islamic,473.6,1075.1,653.4,68.4,10.68,14.44,9.48,72.48
+2023,Faysal Bank Limited,Full Islamic,601.0,1370.07,1018.28,74.9,9.5,12.46,10.4,59.02
+2024,Faysal Bank Limited,Full Islamic,675.0,1564.6,1044.0,83.5,11.48,12.37,10.5,64.66
+2025,Faysal Bank Limited,Full Islamic,907.0,1800.0,1430.0,94.2,12.81,10.39,9.82,63.43
+2020,First Women Bank Limited,Conventional + Islamic Banking,12.53,38.01,25.36,0.06,,0.48,0.01,49.41
+2021,First Women Bank Limited,Conventional + Islamic Banking,12.04,39.11,25.36,0.09,50.0,0.75,0.01,47.48
+2022,First Women Bank Limited,Conventional + Islamic Banking,13.78,50.67,32.16,0.05,-44.44,0.36,0.01,42.85
+2023,First Women Bank Limited,Conventional + Islamic Banking,8.44,70.79,31.33,0.03,-40.0,0.36,0.0,26.94
+2024,First Women Bank Limited,Conventional + Islamic Banking,10.37,65.94,31.6,0.05,66.67,0.48,0.01,32.82
+2025,First Women Bank Limited,Conventional + Islamic Banking,11.6,60.66,37.51,0.07,40.0,0.6,0.01,30.93
+2020,HBL Microfinance Bank,Microfinance Bank,43.4,76.4,61.7,4.19,,9.65,0.77,70.34
+2021,HBL Microfinance Bank,Microfinance Bank,57.0,110.0,91.3,6.2,47.97,10.88,0.92,62.43
+2022,HBL Microfinance Bank,Microfinance Bank,87.9,142.53,116.06,8.43,35.97,9.59,1.17,75.74
+2023,HBL Microfinance Bank,Microfinance Bank,87.85,159.38,128.23,10.87,28.94,12.37,1.51,68.51
+2024,HBL Microfinance Bank,Microfinance Bank,90.3,192.62,122.64,11.73,7.91,12.99,1.47,73.63
+2025,HBL Microfinance Bank,Microfinance Bank,100.5,215.65,150.86,18.09,54.22,18.0,1.89,66.62
+2020,Habib Bank Limited (HBL),Conventional + Islamic Banking,1223.5,3849.1,2800.0,85.02,,6.95,15.56,43.7
+2021,Habib Bank Limited (HBL),Conventional + Islamic Banking,1507.0,4317.47,3400.0,100.0,17.62,6.64,14.81,44.32
+2022,Habib Bank Limited (HBL),Conventional + Islamic Banking,1780.0,4616.14,3551.48,122.0,22.0,6.85,16.91,50.12
+2023,Habib Bank Limited (HBL),Conventional + Islamic Banking,1900.0,5534.3,3500.0,142.0,16.39,7.47,19.72,54.29
+2024,Habib Bank Limited (HBL),Conventional + Islamic Banking,2440.0,6055.11,4400.0,143.0,0.7,5.86,17.98,55.45
+2025,Habib Bank Limited (HBL),Conventional + Islamic Banking,3116.8,7708.1,5546.0,177.0,23.78,5.68,18.46,56.2
+2020,Habib Metropolitan Bank Limited,Conventional + Islamic Banking,331.5,1000.0,681.0,2.1,,0.63,0.38,48.68
+2021,Habib Metropolitan Bank Limited,Conventional + Islamic Banking,419.4,1224.42,772.29,3.64,73.33,0.87,0.54,54.31
+2022,Habib Metropolitan Bank Limited,Conventional + Islamic Banking,455.4,1397.44,880.7,4.98,36.81,1.09,0.69,51.71
+2023,Habib Metropolitan Bank Limited,Conventional + Islamic Banking,460.99,1556.42,1012.3,4.32,-13.25,0.94,0.6,45.54
+2024,Habib Metropolitan Bank Limited,Conventional + Islamic Banking,503.8,1500.0,927.1,5.15,19.21,1.02,0.65,54.34
+2025,Habib Metropolitan Bank Limited,Conventional + Islamic Banking,545.9,1658.9,1119.6,6.4,24.27,1.17,0.67,48.76
+2020,Halan Microfinance Bank Limited,Microfinance Bank,1.07,1.98,1.15,0.14,,13.08,0.03,93.04
+2021,Halan Microfinance Bank Limited,Microfinance Bank,2.49,3.37,2.27,0.31,121.43,12.45,0.05,109.69
+2022,Halan Microfinance Bank Limited,Microfinance Bank,3.48,4.48,3.21,0.59,90.32,16.95,0.08,108.41
+2023,Halan Microfinance Bank Limited,Microfinance Bank,3.23,5.12,4.22,0.53,-10.17,16.41,0.07,76.54
+2024,Halan Microfinance Bank Limited,Microfinance Bank,2.57,5.61,4.62,0.41,-22.64,15.95,0.05,55.63
+2025,Halan Microfinance Bank Limited,Microfinance Bank,7.22,14.8,7.35,1.88,358.54,26.04,0.2,98.23
+2020,Industrial and Commercial Bank of China (ICBC) Pakistan,Foreign Commercial,33.76,241.8,104.3,0.0,,0.0,0.0,32.37
+2021,Industrial and Commercial Bank of China (ICBC) Pakistan,Foreign Commercial,49.71,610.55,155.3,0.0,,0.0,0.0,32.01
+2022,Industrial and Commercial Bank of China (ICBC) Pakistan,Foreign Commercial,54.36,782.74,176.54,0.0,,0.0,0.0,30.79
+2023,Industrial and Commercial Bank of China (ICBC) Pakistan,Foreign Commercial,372.3,1409.22,224.23,0.0,,0.0,0.0,166.03
+2024,Industrial and Commercial Bank of China (ICBC) Pakistan,Foreign Commercial,386.62,1672.86,509.46,0.0,,0.0,0.0,75.89
+2025,Industrial and Commercial Bank of China (ICBC) Pakistan,Foreign Commercial,802.0,1838.3,538.97,0.0,,0.0,0.0,148.8
+2020,JS Bank Limited,Conventional + Islamic Banking,254.4,477.99,391.95,17.9,,7.04,3.28,64.91
+2021,JS Bank Limited,Conventional + Islamic Banking,261.0,584.29,460.71,23.4,30.73,8.97,3.47,56.65
+2022,JS Bank Limited,Conventional + Islamic Banking,235.16,616.71,464.13,18.8,-19.66,7.99,2.61,50.67
+2023,JS Bank Limited,Conventional + Islamic Banking,213.79,589.43,486.28,15.1,-19.68,7.06,2.1,43.96
+2024,JS Bank Limited,Conventional + Islamic Banking,339.8,1359.04,1081.83,17.2,13.91,5.06,2.16,31.41
+2025,JS Bank Limited,Conventional + Islamic Banking,455.3,1415.62,1199.43,20.45,18.9,4.49,2.13,37.96
+2020,Khushhali Microfinance Bank Limited,Microfinance Bank,60.65,56.0,81.48,7.94,,13.09,1.45,74.44
+2021,Khushhali Microfinance Bank Limited,Microfinance Bank,70.78,69.16,8.35,10.49,32.13,14.82,1.55,847.66
+2022,Khushhali Microfinance Bank Limited,Microfinance Bank,88.6,81.48,64.77,14.92,42.24,16.84,2.07,136.79
+2023,Khushhali Microfinance Bank Limited,Microfinance Bank,72.68,115.1,119.29,8.55,-42.71,11.76,1.19,60.93
+2024,Khushhali Microfinance Bank Limited,Microfinance Bank,57.3,185.39,154.95,5.16,-39.6,9.01,0.65,36.98
+2025,Khushhali Microfinance Bank Limited,Microfinance Bank,90.4,261.89,214.0,9.06,75.45,10.02,0.94,42.24
+2020,LOLC Microfinance Bank Limited,Microfinance Bank,2.5,4.45,0.01,0.22,,8.8,0.04,25000.0
+2021,LOLC Microfinance Bank Limited,Microfinance Bank,5.63,7.18,1.77,0.43,95.45,7.64,0.06,318.08
+2022,LOLC Microfinance Bank Limited,Microfinance Bank,5.49,7.68,2.41,0.67,55.81,12.2,0.09,227.8
+2023,LOLC Microfinance Bank Limited,Microfinance Bank,5.6,6.67,0.93,0.76,13.43,13.57,0.11,602.15
+2024,LOLC Microfinance Bank Limited,Microfinance Bank,4.47,7.5,1.95,0.98,28.95,21.92,0.12,229.23
+2025,LOLC Microfinance Bank Limited,Microfinance Bank,11.15,9.8,4.1,3.64,271.43,32.65,0.38,271.95
+2020,MCB Bank Limited,Conventional + Islamic Banking,513.5,1757.5,1289.5,34.02,,6.63,6.23,39.82
+2021,MCB Bank Limited,Conventional + Islamic Banking,635.57,1970.47,1411.85,38.0,11.7,5.98,5.63,45.02
+2022,MCB Bank Limited,Conventional + Islamic Banking,832.58,2085.4,1378.7,43.7,15.0,5.25,6.06,60.39
+2023,MCB Bank Limited,Conventional + Islamic Banking,1094.82,2427.18,1805.39,38.63,-11.6,3.53,5.36,60.64
+2024,MCB Bank Limited,Conventional + Islamic Banking,1204.4,2703.0,1922.21,37.4,-3.18,3.11,4.7,62.66
+2025,MCB Bank Limited,Conventional + Islamic Banking,1407.6,3247.06,2261.28,50.69,35.53,3.6,5.29,62.25
+2020,Mashreq Bank Pakistan Limited,Islamic Digital Bank,0.0,0.0,0.0,0.0,,,0.0,
+2021,Mashreq Bank Pakistan Limited,Islamic Digital Bank,0.0,0.0,0.0,0.0,,,0.0,
+2022,Mashreq Bank Pakistan Limited,Islamic Digital Bank,0.0,0.0,0.0,0.0,,,0.0,
+2023,Mashreq Bank Pakistan Limited,Islamic Digital Bank,0.0,0.0,0.0,0.0,,,0.0,
+2024,Mashreq Bank Pakistan Limited,Islamic Digital Bank,0.0,0.0,0.0,0.0,,,0.0,
+2025,Mashreq Bank Pakistan Limited,Islamic Digital Bank,0.0,0.0,0.24,0.0,,,0.0,0.0
+2020,Meezan Bank Limited,Full Islamic,512.53,1281.72,1005.92,44.8,,8.74,8.2,50.95
+2021,Meezan Bank Limited,Full Islamic,777.02,1907.66,1455.87,59.3,32.37,7.63,8.78,53.37
+2022,Meezan Bank Limited,Full Islamic,1018.1,2583.0,1658.0,51.4,-13.32,5.05,7.13,61.41
+2023,Meezan Bank Limited,Full Islamic,992.0,3010.0,2220.0,46.75,-9.05,4.71,6.49,44.68
+2024,Meezan Bank Limited,Full Islamic,1556.4,3900.41,2580.0,53.1,13.58,3.41,6.68,60.33
+2025,Meezan Bank Limited,Full Islamic,1686.3,4788.4,3300.0,64.8,22.03,3.84,6.76,51.1
+2020,Mobilink Microfinance Bank Limited (JazzCash),Microfinance Bank,24.6,56.0,46.81,2.72,,11.06,0.5,52.55
+2021,Mobilink Microfinance Bank Limited (JazzCash),Microfinance Bank,38.37,69.16,58.66,5.88,116.05,15.32,0.87,65.41
+2022,Mobilink Microfinance Bank Limited (JazzCash),Microfinance Bank,58.9,81.48,64.77,9.41,60.12,15.98,1.3,90.94
+2023,Mobilink Microfinance Bank Limited (JazzCash),Microfinance Bank,76.91,144.38,119.29,9.09,-3.42,11.82,1.26,64.47
+2024,Mobilink Microfinance Bank Limited (JazzCash),Microfinance Bank,86.84,185.4,155.0,7.82,-13.93,9.01,0.98,56.03
+2025,Mobilink Microfinance Bank Limited (JazzCash),Microfinance Bank,103.0,261.9,213.93,11.32,44.67,10.99,1.18,48.15
+2020,NRSP Microfinance Bank Limited,Microfinance Bank,29.0,53.16,39.28,18.02,,62.14,3.3,73.83
+2021,NRSP Microfinance Bank Limited,Microfinance Bank,30.85,51.38,34.13,13.2,-26.75,42.79,1.96,90.39
+2022,NRSP Microfinance Bank Limited,Microfinance Bank,32.39,44.19,32.44,23.2,75.76,71.63,3.22,99.85
+2023,NRSP Microfinance Bank Limited,Microfinance Bank,35.9,54.62,41.06,26.32,13.45,73.31,3.65,87.43
+2024,NRSP Microfinance Bank Limited,Microfinance Bank,41.8,177.24,55.0,30.8,17.02,73.68,3.87,76.0
+2025,NRSP Microfinance Bank Limited,Microfinance Bank,39.4,81.6,52.3,32.02,3.96,81.27,3.34,75.33
+2020,National Bank of Pakistan (NBP),Conventional + Islamic Banking,1159.9,3008.5,2419.0,71.2,,6.14,13.03,47.95
+2021,National Bank of Pakistan (NBP),Conventional + Islamic Banking,1305.4,3872.7,2498.1,78.4,10.11,6.01,11.61,52.26
+2022,National Bank of Pakistan (NBP),Conventional + Islamic Banking,1443.0,5240.4,2666.2,83.6,6.63,5.79,11.59,54.12
+2023,National Bank of Pakistan (NBP),Conventional + Islamic Banking,1631.7,6653.0,3674.0,90.7,8.49,5.56,12.59,44.41
+2024,National Bank of Pakistan (NBP),Conventional + Islamic Banking,1672.8,6744.1,3865.6,107.0,17.97,6.4,13.45,43.27
+2025,National Bank of Pakistan (NBP),Conventional + Islamic Banking,1844.7,7067.0,4429.3,114.5,7.01,6.21,11.94,41.65
+2020,Raqami Islamic Digital Bank Limited,Islamic Digital Bank,0.0,0.0,0.0,0.0,,,0.0,
+2021,Raqami Islamic Digital Bank Limited,Islamic Digital Bank,0.0,0.0,0.0,0.0,,,0.0,
+2022,Raqami Islamic Digital Bank Limited,Islamic Digital Bank,0.0,0.0,0.0,0.0,,,0.0,
+2023,Raqami Islamic Digital Bank Limited,Islamic Digital Bank,0.0,0.0,0.0,0.0,,,0.0,
+2024,Raqami Islamic Digital Bank Limited,Islamic Digital Bank,0.0,0.0,0.0,0.0,,,0.0,
+2025,Raqami Islamic Digital Bank Limited,Islamic Digital Bank,0.0,0.0,1.42,0.0,,,0.0,0.0
+2020,Sindh Bank Limited,Conventional + Islamic Banking,76.4,273.71,185.57,0.15,,0.2,0.03,41.17
+2021,Sindh Bank Limited,Conventional + Islamic Banking,73.02,270.19,217.61,0.24,60.0,0.33,0.04,33.56
+2022,Sindh Bank Limited,Conventional + Islamic Banking,70.89,357.85,223.04,0.18,-25.0,0.25,0.02,31.78
+2023,Sindh Bank Limited,Conventional + Islamic Banking,77.51,300.5,223.6,0.12,-33.33,0.15,0.02,34.66
+2024,Sindh Bank Limited,Conventional + Islamic Banking,98.96,360.08,312.71,0.25,108.33,0.25,0.03,31.65
+2025,Sindh Bank Limited,Conventional + Islamic Banking,170.5,445.4,342.09,0.4,60.0,0.23,0.04,49.84
+2020,Sindh Microfinance Bank Limited,Microfinance Bank,0.55,1.91,0.13,0.06,,10.91,0.01,423.08
+2021,Sindh Microfinance Bank Limited,Microfinance Bank,0.92,2.09,0.27,0.09,50.0,9.78,0.01,340.74
+2022,Sindh Microfinance Bank Limited,Microfinance Bank,1.32,2.04,0.6,0.07,-22.22,5.3,0.01,220.0
+2023,Sindh Microfinance Bank Limited,Microfinance Bank,1.93,3.42,1.32,0.12,71.43,6.22,0.02,146.21
+2024,Sindh Microfinance Bank Limited,Microfinance Bank,2.24,4.53,1.99,0.18,50.0,8.04,0.02,112.56
+2025,Sindh Microfinance Bank Limited,Microfinance Bank,2.71,4.14,1.55,0.27,50.0,9.96,0.03,174.84
+2020,Soneri Bank Limited,Conventional + Islamic Banking,195.36,485.0,345.5,1.25,,0.64,0.23,56.54
+2021,Soneri Bank Limited,Conventional + Islamic Banking,173.42,579.49,403.04,1.48,18.4,0.85,0.22,43.03
+2022,Soneri Bank Limited,Conventional + Islamic Banking,215.77,579.76,409.64,1.1,-25.68,0.51,0.15,52.67
+2023,Soneri Bank Limited,Conventional + Islamic Banking,191.4,658.56,517.87,0.95,-13.64,0.5,0.13,36.96
+2024,Soneri Bank Limited,Conventional + Islamic Banking,293.9,739.5,543.15,1.12,17.89,0.38,0.14,54.11
+2025,Soneri Bank Limited,Conventional + Islamic Banking,355.9,852.48,689.1,0.8,-28.57,0.22,0.08,51.65
+2020,Standard Chartered Bank (Pakistan) Limited,Conventional + Islamic Banking,199.75,700.5,557.0,23.5,,11.76,4.3,35.86
+2021,Standard Chartered Bank (Pakistan) Limited,Conventional + Islamic Banking,255.91,839.43,626.77,28.95,23.19,11.31,4.29,40.83
+2022,Standard Chartered Bank (Pakistan) Limited,Conventional + Islamic Banking,236.92,927.29,718.45,26.4,-8.81,11.14,3.66,32.98
+2023,Standard Chartered Bank (Pakistan) Limited,Conventional + Islamic Banking,240.84,1001.95,719.53,22.8,-13.64,9.47,3.17,33.47
+2024,Standard Chartered Bank (Pakistan) Limited,Conventional + Islamic Banking,267.2,1057.29,835.7,19.5,-14.47,7.3,2.45,31.97
+2025,Standard Chartered Bank (Pakistan) Limited,Conventional + Islamic Banking,295.6,911.19,650.14,17.1,-12.31,5.78,1.78,45.47
+2020,U Microfinance Bank Limited (UBank),Microfinance Bank,23.97,70.71,46.1,1.28,,5.32,0.23,52.0
+2021,U Microfinance Bank Limited (UBank),Microfinance Bank,36.41,104.58,55.0,2.38,86.73,6.54,0.35,66.2
+2022,U Microfinance Bank Limited (UBank),Microfinance Bank,62.98,218.53,92.2,4.81,101.8,7.63,0.67,68.31
+2023,U Microfinance Bank Limited (UBank),Microfinance Bank,88.74,178.32,103.35,4.74,-1.39,5.34,0.66,85.86
+2024,U Microfinance Bank Limited (UBank),Microfinance Bank,82.8,218.5,120.0,3.39,-28.54,4.09,0.43,69.0
+2025,U Microfinance Bank Limited (UBank),Microfinance Bank,103.0,240.0,156.0,5.64,66.67,5.48,0.59,66.03
+2020,United Bank Limited (UBL),Conventional + Islamic Banking,609.3,2201.88,1764.39,17.11,,2.81,3.13,34.53
+2021,United Bank Limited (UBL),Conventional + Islamic Banking,849.2,2787.66,1798.03,17.01,-0.58,2.0,2.52,47.23
+2022,United Bank Limited (UBL),Conventional + Islamic Banking,1014.0,2978.0,2035.0,17.7,4.06,1.75,2.45,49.83
+2023,United Bank Limited (UBL),Conventional + Islamic Banking,975.7,5575.0,2351.0,16.59,-6.27,1.7,2.3,41.5
+2024,United Bank Limited (UBL),Conventional + Islamic Banking,1565.0,8063.0,2640.0,18.86,13.68,1.21,2.37,59.28
+2025,United Bank Limited (UBL),Conventional + Islamic Banking,1492.43,12620.0,5168.0,27.16,44.01,1.82,2.83,28.88

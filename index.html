@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dashboard Insights · Recommended Lending Products for a DRB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #000000;
+    --ink-2: #1f1f1f;
+    --mid: #6b6b6b;
+    --line: #e2e2e2;
+    --panel: #f5f5f5;
+    --paper: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink-2);
+    font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 22px 48px; }
+
+  /* Logo bar */
+  .topbar { padding: 18px 0 4px; }
+  .topbar img { width: 140px; height: auto; display: block; }
+
+  /* Masthead */
+  .mast {
+    background: var(--ink);
+    color: #fff;
+    border-radius: 10px;
+    padding: 24px 28px;
+    margin: 18px 0 8px;
+  }
+  .mast h1 { margin: 0; font-size: 28px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.15; }
+  .mast p { margin: 6px 0 0; color: #bdbdbd; font-size: 13.5px; }
+
+
+  /* Sections */
+  section { scroll-margin-top: 12px; }
+  h2 {
+    font-size: 20px; font-weight: 700; color: var(--ink); letter-spacing: -0.01em;
+    margin: 34px 0 12px; padding-bottom: 8px; border-bottom: 2px solid var(--ink);
+    display: flex; gap: 10px; align-items: baseline;
+  }
+  h2 .num {
+    background: var(--ink); color: #fff; font-size: 13px; font-weight: 600;
+    border-radius: 4px; padding: 1px 8px;
+  }
+  h3 { font-size: 16px; font-weight: 600; color: var(--ink); margin: 22px 0 6px; }
+  p { margin: 0 0 12px; }
+  b, strong { color: var(--ink); font-weight: 600; }
+
+  ul.points { margin: 4px 0 14px; padding-left: 20px; }
+  ul.points li { margin-bottom: 6px; }
+
+  /* Callouts */
+  .callout {
+    border-left: 3px solid var(--ink); background: #f7f7f7;
+    padding: 12px 16px; border-radius: 0 6px 6px 0; margin: 14px 0;
+  }
+  .callout p:last-child, .callout ul:last-child { margin-bottom: 0; }
+  .note {
+    font-size: 13px; color: var(--mid); background: #f7f7f7; border: 1px solid var(--line);
+    border-radius: 6px; padding: 10px 14px; margin: 12px 0;
+  }
+  .note b { color: var(--ink); }
+
+  /* KPI strip */
+  .kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 10px; margin: 14px 0 18px; }
+  .kpi {
+    border: 1px solid var(--line); border-top: 3px solid var(--ink); border-radius: 4px 4px 8px 8px;
+    padding: 12px 14px; background: #fff;
+  }
+  .kpi.dark { background: var(--ink); border-color: var(--ink); }
+  .kpi .l { font-size: 12px; color: var(--mid); font-weight: 500; }
+  .kpi .v { font-size: 24px; font-weight: 600; color: var(--ink); letter-spacing: -0.02em; margin-top: 4px;
+            font-variant-numeric: tabular-nums; }
+  .kpi.dark .l { color: #bdbdbd; }
+  .kpi.dark .v { color: #fff; }
+
+  /* Tables */
+  .table-wrap { overflow-x: auto; margin: 10px 0 16px; border: 1px solid var(--line); border-radius: 6px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+  th {
+    background: var(--ink); color: #fff; font-weight: 600; text-align: left;
+    padding: 9px 12px; white-space: nowrap;
+  }
+  td { padding: 8px 12px; border-bottom: 1px solid var(--line); }
+  tr:nth-child(even) td { background: #f7f7f7; }
+  tr:last-child td { border-bottom: none; }
+  td.r, th.r { text-align: right; }
+
+  /* Product cards */
+  .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; margin: 12px 0; }
+  .product {
+    border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; background: #fff;
+  }
+  .product .n {
+    display: inline-block; background: var(--ink); color: #fff; font-size: 12px; font-weight: 600;
+    border-radius: 4px; padding: 1px 7px; margin-bottom: 6px;
+  }
+  .product h4 { margin: 0 0 4px; font-size: 15px; font-weight: 600; color: var(--ink); }
+  .product p { margin: 0; font-size: 14px; color: #333; }
+
+  footer {
+    margin-top: 36px; padding-top: 12px; border-top: 1px solid var(--line);
+    font-size: 12px; color: #8a8a8a;
+  }
+
+  .prepared { margin-top: 6px; font-size: 13px; color: var(--ink-2); font-weight: 500; }
+
+  @media (max-width: 640px) {
+    html, body { font-size: 14px; }
+    .mast { padding: 20px; }
+    .mast h1 { font-size: 22px; }
+    h2 { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar"><img src="FT-Logo NEW.png" alt="Future Technologies"></div>
+
+  <div class="mast">
+    <h1>Dashboard Insights</h1>
+    <p>Recommended lending products for a Digital Retail Bank · personal loans, vehicle finance and home finance</p>
+  </div>
+
+  <!-- 1. MARKET SIZE -->
+  <section id="market">
+    <h2><span class="num">1</span> How large is Pakistan's consumer finance market?</h2>
+
+    <div class="kpis">
+      <div class="kpi dark"><div class="l">Consumer finance 2025</div><div class="v">PKR 959 Bn</div></div>
+      <div class="kpi"><div class="l">Consumer finance 2020</div><div class="v">PKR 546 Bn</div></div>
+      <div class="kpi"><div class="l">CAGR 2020–2025</div><div class="v">11.9%</div></div>
+      <div class="kpi"><div class="l">Share of total advances 2025</div><div class="v">5.1%</div></div>
+    </div>
+
+    <p>Consumer finance from the 39 banks in our dataset grew from <b>PKR 546.4 billion in 2020 to PKR 958.8 billion in 2025</b>, a compound annual growth rate (CAGR) of <b>11.9%</b>. Growth was uneven:</p>
+
+    <div class="table-wrap">
+      <table>
+        <tr><th>Year</th><th class="r">2020</th><th class="r">2021</th><th class="r">2022</th><th class="r">2023</th><th class="r">2024</th><th class="r">2025</th></tr>
+        <tr><td>Consumer finance (PKR Bn)</td><td class="r">546.4</td><td class="r">675.2</td><td class="r">721.3</td><td class="r">720.2</td><td class="r">795.3</td><td class="r">958.8</td></tr>
+        <tr><td>Growth</td><td class="r">—</td><td class="r"><b>23.6%</b></td><td class="r">6.8%</td><td class="r">−0.2%</td><td class="r">10.4%</td><td class="r"><b>20.6%</b></td></tr>
+        <tr><td>Share of total advances</td><td class="r">6.2%</td><td class="r">6.2%</td><td class="r">5.7%</td><td class="r">5.2%</td><td class="r">4.7%</td><td class="r">5.1%</td></tr>
+      </table>
+    </div>
+    <p>Growth stalled in 2022–2023, when inflation was highest, and recovered strongly in 2025. Consumer finance is a small and shrinking part of bank balance sheets: banks lend only about <b>46% of their deposits</b>.</p>
+
+    <h3>By product</h3>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Product</th><th class="r">2020 (PKR Bn)</th><th class="r">2025 (PKR Bn)</th><th class="r">Nominal CAGR</th><th class="r">Real CAGR</th><th class="r">Share 2020</th><th class="r">Share 2025</th></tr>
+        <tr><td>Personal loans</td><td class="r">282.9</td><td class="r">264.6</td><td class="r">−1.3%</td><td class="r"><b>−14.1%</b></td><td class="r">41.4%</td><td class="r">27.6%</td></tr>
+        <tr><td>Vehicle finance</td><td class="r">256.5</td><td class="r">319.0</td><td class="r">4.5%</td><td class="r">−9.1%</td><td class="r">37.5%</td><td class="r">33.3%</td></tr>
+        <tr><td>Home finance</td><td class="r">93.7</td><td class="r">220.3</td><td class="r">18.6%</td><td class="r"><b>3.3%</b></td><td class="r">13.7%</td><td class="r">23.0%</td></tr>
+        <tr><td>Credit cards</td><td class="r">50.2</td><td class="r">153.0</td><td class="r"><b>25.0%</b></td><td class="r"><b>8.8%</b></td><td class="r">7.3%</td><td class="r">16.0%</td></tr>
+      </table>
+    </div>
+
+    <div class="note"><b>Note:</b> Figures are outstanding balances in nominal PKR. Real values divide by a price index built from average yearly inflation, so they show the market in 2020 prices.</div>
+  </section>
+
+  <!-- 2. INFLATION -->
+  <section id="inflation">
+    <h2><span class="num">2</span> What did inflation do to the market?</h2>
+
+    <div class="kpis">
+      <div class="kpi dark"><div class="l">Peak inflation (2023)</div><div class="v">30.8%</div></div>
+      <div class="kpi"><div class="l">Inflation 2025</div><div class="v">3.6%</div></div>
+      <div class="kpi"><div class="l">Price level 2025 vs 2020</div><div class="v">2.0×</div></div>
+      <div class="kpi"><div class="l">Personal loans in 2020 prices</div><div class="v">PKR 132 Bn</div></div>
+    </div>
+
+    <p>Prices roughly <b>doubled between 2020 and 2025</b>. In nominal terms personal loans look almost flat, but in 2020 prices they fell from <b>PKR 282.9 billion to PKR 132.2 billion</b>, more than halving. Vehicle finance fell from PKR 256.5 billion to PKR 159.4 billion in real terms.</p>
+    <ul class="points">
+      <li><b>2022–2023 was the turning point.</b> Inflation reached 19.9% and then 30.8%, interest rates rose, and vehicle finance fell 24.7% in 2023.</li>
+      <li><b>Only home finance and credit cards beat inflation.</b> Their real growth was 3.3% and 8.8% a year.</li>
+      <li><b>2025 shows a recovery.</b> With inflation at 3.6% in 2025, vehicle finance grew 35.5% and personal loans 10.7% in nominal terms.</li>
+    </ul>
+    <div class="callout">
+      <p>The fall in personal loans reflects <b>lower supply, not lower demand</b>. Banks cut unsecured lending when inflation and rates were high. As conditions ease, this leaves a large under-served gap.</p>
+    </div>
+  </section>
+
+  <!-- 3. WHO SERVES IT -->
+  <section id="serving">
+    <h2><span class="num">3</span> Who is currently serving the market?</h2>
+
+    <div class="kpis">
+      <div class="kpi dark"><div class="l">Conventional banks' share 2025</div><div class="v">64.9%</div></div>
+      <div class="kpi"><div class="l">Top 5 lenders' share</div><div class="v">60.7%</div></div>
+      <div class="kpi"><div class="l">HHI (concentration)</div><div class="v">923</div></div>
+      <div class="kpi"><div class="l">Digital bank's share</div><div class="v">1.9%</div></div>
+    </div>
+
+    <h3>Top lenders, 2025</h3>
+    <div class="table-wrap">
+      <table>
+        <tr><th class="r">Rank</th><th>Bank</th><th class="r">Consumer finance (PKR Bn)</th><th class="r">Market share</th></tr>
+        <tr><td class="r">1</td><td>Habib Bank Limited (HBL)</td><td class="r">177.0</td><td class="r">18.5%</td></tr>
+        <tr><td class="r">2</td><td>Bank Alfalah Limited</td><td class="r">131.3</td><td class="r">13.7%</td></tr>
+        <tr><td class="r">3</td><td>National Bank of Pakistan (NBP)</td><td class="r">114.5</td><td class="r">11.9%</td></tr>
+        <tr><td class="r">4</td><td>Faysal Bank Limited</td><td class="r">94.2</td><td class="r">9.8%</td></tr>
+        <tr><td class="r">5</td><td>Meezan Bank Limited</td><td class="r">64.8</td><td class="r">6.8%</td></tr>
+      </table>
+    </div>
+    <p>HBL has been the largest consumer lender every year from 2020 to 2025. The market is not highly concentrated (HHI about 923, below the 1,500 threshold), so there is room for a new entrant.</p>
+
+    <h3>Share by bank type</h3>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Bank type</th><th class="r">Share 2020</th><th class="r">Share 2025</th><th class="r">CAGR 2020–2025</th><th class="r">Consumer finance as % of advances (2025)</th></tr>
+        <tr><td>Conventional + Islamic Banking</td><td class="r">66.6%</td><td class="r">64.9%</td><td class="r">11.3%</td><td class="r">4.4%</td></tr>
+        <tr><td>Full Islamic</td><td class="r">25.7%</td><td class="r">23.1%</td><td class="r">9.6%</td><td class="r">6.6%</td></tr>
+        <tr><td>Microfinance Bank</td><td class="r">6.9%</td><td class="r">10.1%</td><td class="r">20.5%</td><td class="r">18.9%</td></tr>
+        <tr><td>Digital Bank</td><td class="r">0.7%</td><td class="r">1.9%</td><td class="r"><b>36.2%</b></td><td class="r"><b>68.9%</b></td></tr>
+        <tr><td>Foreign Commercial</td><td class="r">0.1%</td><td class="r">0.1%</td><td class="r">0.4%</td><td class="r">0.1%</td></tr>
+        <tr><td>Islamic Digital Bank</td><td class="r">0.0%</td><td class="r">0.0%</td><td class="r">—</td><td class="r">—</td></tr>
+      </table>
+    </div>
+    <ul class="points">
+      <li><b>Large banks do not prioritise consumer lending.</b> Conventional banks put only 4.4% of their advances into it.</li>
+      <li><b>The digital model works.</b> Easypaisa (the only digital bank) puts 68.9% of its advances into consumer finance and grew its book 36.2% a year, the fastest of any bank type.</li>
+      <li><b>Microfinance banks are gaining share</b> (6.9% to 10.1%), showing strong demand for small-ticket loans.</li>
+    </ul>
+  </section>
+
+  <!-- 4. PRODUCT FIT
+  <section id="fit">
+    <h2><span class="num">4</span> Which product fits a new digital bank?</h2>
+    <p>Each product is scored from 1 to 5 on five factors: how easily it can be offered digitally (25%), whether its loan tenor suits a new bank's funding (20%), risk measured by growth volatility (20%), the gap left by existing banks (20%) and real growth (15%).</p>
+
+    <div class="table-wrap">
+      <table>
+        <tr><th>Product</th><th class="r">Digital</th><th class="r">Tenor</th><th class="r">Risk</th><th class="r">Market gap</th><th class="r">Real growth</th><th class="r">Weighted score</th></tr>
+        <tr><td><b>Personal loans</b></td><td class="r">5</td><td class="r">5</td><td class="r">4</td><td class="r">5</td><td class="r">2</td><td class="r"><b>4.35</b></td></tr>
+        <tr><td>Vehicle finance</td><td class="r">3</td><td class="r">3</td><td class="r">2</td><td class="r">3</td><td class="r">2</td><td class="r">2.65</td></tr>
+        <tr><td>Home finance</td><td class="r">1</td><td class="r">1</td><td class="r">2</td><td class="r">4</td><td class="r">4</td><td class="r">2.25</td></tr>
+      </table>
+    </div>
+    <ul class="points">
+      <li><b>Personal loans</b> are the most stable product (volatility 9.8%), need no collateral or dealer network, and can be approved fully in an app.</li>
+      <li><b>Vehicle finance</b> recovered fastest in 2025 (+35.5%) but is the most volatile (27.9%) and depends on dealer partnerships.</li>
+      <li><b>Home finance</b> is the only core product with positive real growth, but it needs 15–20 year funding and property checks.</li>
+    </ul>
+    <div class="note"><b>Note:</b> Scores are analyst assessment based on the data and DRB operating constraints.</div>
+  </section> -->
+
+  <!-- 5. RECOMMENDATION -->
+  <section id="recommendation">
+    <h2><span class="num">5</span> Recommendation</h2>
+    <p>The DRB should <b>launch with digital personal loans</b>, then add vehicle finance and home finance as its deposit base and partnerships grow.</p>
+
+    <div class="products">
+      <div class="product">
+        <span class="n">1</span>
+        <h4>Digital Personal Loans · Year 1</h4>
+        <p>Salary advance and small-ticket loans, applied for, approved and repaid in the app, with a Shariah-compliant option.</p>
+      </div>
+      <div class="product">
+        <span class="n">2</span>
+        <h4>Vehicle Finance · Year 2</h4>
+        <p>Car and motorbike finance through dealer partnerships, launched once interest rates and the deposit base are stable.</p>
+      </div>
+      <div class="product">
+        <span class="n">3</span>
+        <h4>Home Finance · Year 3+</h4>
+        <p>Islamic home finance through partners or government schemes, once long-term funding is in place.</p>
+      </div>
+      <div class="product">
+        <span class="n">+</span>
+        <h4>Digital Card / Buy Now, Pay Later</h4>
+        <p>Credit card financing grew 25% a year. A digital card fits naturally next to personal loans.</p>
+      </div>
+    </div>
+
+    <div class="callout">
+      <p><b>Why now:</b> inflation fell to 3.6% in 2025, personal loans returned to growth, and banks are still lending less than half of their deposits. A digital bank with low servicing costs can win this under-served segment.</p>
+    </div>
+
+
+
+  <footer>Recommended Lending Products for a DRB · figures in PKR billions unless stated · real values use average yearly inflation
+   
+  </footer>
+</div>
+</body>
+</html>
